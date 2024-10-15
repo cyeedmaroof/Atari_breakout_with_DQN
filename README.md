@@ -26,30 +26,32 @@ This project implements a Deep Q-Network (DQN) agent to play the Atari Breakout 
 
 ## Project Structure
 
+```bash
 Atari_breakout_with_DQN/
 │
-├── .vscode/
-│   └── settings.json
+├── .vscode/                # VSCode configuration files
+│   └── settings.json        # Editor settings for the project
 │
-├── config/
-│   └── config.py
+├── config/                 # Configuration files
+│   └── config.py           # Hyperparameters and settings
 │
-├── models/
-│   └── [model files]
+├── models/                 # Directory to store trained model files
+│   └── [model files]       # Saved model weights in .h5 format
 │
-├── src/
-│   └── agent.py
-│   └── environment.py
-│   └── model.py
-│   └── train.py
+├── src/                    # Source code for the project
+│   └── agent.py            # DQN agent implementation
+│   └── environment.py      # Atari Breakout environment setup
+│   └── model.py            # Neural network model definition
+│   └── train.py            # Training loop and logic
 │
-├── utils/
-│   └── utils.py
+├── utils/                  # Utility functions
+│   └── utils.py            # Helper functions for training and logging
 │
-├── load_and_test_model.py
-├── main.py
-├── README.md
-└── requirements.txt
+├── load_and_test_model.py   # Script to load and test the saved model
+├── main.py                  # Main entry point for training the agent
+├── README.md                # Project documentation (this file)
+└── requirements.txt         # Python dependencies
+
 
 - `main.py`: The entry point of the program, orchestrating the entire process
 - `environment.py`: Contains functions to create and configure the Atari environment
