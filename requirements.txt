@@ -1,0 +1,7 @@
+tensorflow
+keras
+numpy
+matplotlib
+gymnasium[atari]
+gymnasium[accept-rom-license]
+moviepy
